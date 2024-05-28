@@ -1,30 +1,54 @@
-# React + TypeScript + Vite
+<p align="center" >
+<img src="src/assets/ignite-logo.svg" alt="last-commit" >
+</p>
+<h1 align="center">
+    Ignite Timer
+</h1>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<h2 align="center"> Aplicação Rocketseat Ignite Timer ⏳ </h2>
 
-Currently, two official plugins are available:
+<h2>📷 Preview </h2>
+<h1 align="center">
+  <div style="display: flex; flex-direction: row;">
+    <img width="700" style="border-radius: 10px" height="auto" alt="Class-02" title="Class-02" src="public/ignite-timer.gif" />
+  <div>
+</h1>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+<h1 align="center">
+  <div style="display: flex; flex-direction: row;">
+    <img width="700" style="border-radius: 10px" height="auto" alt="Class-02" title="Class-02" src="public/home.png" />
+</h1>
 
-## Expanding the ESLint configuration
+<h1 align="center">
+  <div style="display: flex; flex-direction: row;">
+    <img width="700" style="border-radius: 10px" height="auto" alt="Class-02" title="Class-02" src="public/history.png" />
+  <div>
+</h1>
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+Ignite Timer é um projeto que trata-se de um timer onde é possível adicionar as suas tarefas do dia a dia e cronometrá-las com tempo mínimo de 5 minutos e tempo máximo de 60 minutos, podendo interrompê-las e ver o histórico de suas tarefas. 
 
-- Configure the top-level `parserOptions` property like this:
+<h2 id="technologies"> 🛠 Tecnologias utilizadas: </h2>
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
+- [ReactJS](https://reactjs.org)
+- [NodeJS](https://nodejs.org/en/)
+- [Yarn](https://yarnpkg.com) or Npm
+- [Git Bash](https://gitforwindows.org/)
+- [Phosphor Icons](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwjFm-TeifD7AhWyr5UCHVSZA1wQFnoECBAQAQ&url=https%3A%2F%2Fphosphoricons.com%2F&usg=AOvVaw0B6_0g-qmH9oxUW4xxfnJG)
+- [Styled-components](https://styled-components.com)
+- [Zod](https://github.com/colinhacks/zod)
+- [Immer](https://github.com/immerjs/immer)
+
+```bash
+# Clone Repository
+$ git clone https://github.com/ThiagoYamaguchi/ignite-timer.git
+
+# Go to server folder
+$ cd https://github.com/ThiagoYamaguchi/ignite-timer.git
+
+# Install Dependencies
+
+$ npm install
+
+$ npm run dev
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
